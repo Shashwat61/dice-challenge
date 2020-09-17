@@ -1,5 +1,5 @@
 //for image1
-var randomnumber=Math.floor(Math.random() * 6)+1;//1-6//
+var randomnumber=Math.floor(Math.random() * 6)+1;
 var randomdice="dice"+randomnumber+".png";
 var randomimagesource="images/"+randomdice;
 var image=document.querySelectorAll("img")[0];
